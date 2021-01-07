@@ -8,7 +8,11 @@ module.exports = {
     ],
     darkMode: 'class', // or 'media' or false
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                sans: ['Inter', 'sans-serif']
+            },
+        },
     },
     variants: {
         extend: {},
